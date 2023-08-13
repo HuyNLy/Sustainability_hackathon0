@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#ccffff, #99ffcc, lightyellow, #ccffff);
+}
+h1
+{
+  text-align: center;
+}
+p
+{
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+  font-size: 30px;
+  font-style: Italic;
+}
+.intro
+{
+   background-color: rgba(0,0,0,0);
+}
+
+.menu
+{
+  display: flex;
+  position: fixed;
+  top: 0;
+  width:100%;
+  justify-content: center;
+  z-index: 4;
+  background-color: rgba(0,0,0,0.8);
+
+}
+
+.menu ul
+{
+  list-style: none;
+
+}
+.menu ul li {
+
+  float: left;
+   margin-left: 100px;
+  margin-right: 100px; /*space between each topic in navigator bar*/
+  
+}
+
+.menu ul li a
+{
+  text-decoration: none; /*no underline */
+  font-size: 30px;
+  font-family: Cursive;
+  color: white;
+}
+.menu ul li a:hover
+{
+  text-decoration:none;
+  color: cyan;
+  font-weight: bold;
+}
+
+.intro{
+  margin-top: 100px;
+ 
+}
+.intro h1
+{
+  font-size:80px;
+  z-index:-1;
+}
+#field
+{
+  z-index: 2;
+}
+.body{
+  text-align: center;
+}
+.game{
+  background: black;
+  border: 3px dashed orange;
+  height: 400px;
+  margin: 100px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  color:greenyellow;
+}
+.gamein4
+{
+  width: 300px;
+  
+}
+.noScreen
+{
+  margin:10px;
+  background-color: blue;
+  width: 600px;
+  z-index: 3;
+}
+.screen
+{
+  display:none;
+  margin:10px;
+  background-color: white;
+  width: 600px;
+  z-index: 2;
+}
+#startGame
+{
+  margin: 15px;
+  border-radius: 40px;
+  height: 70px;
+  width:70px;
+  
+}
+.gameButton:nth-child(1)
+{
+  position: absolute;
+  bottom:0;
+  right:200px;
+  margin:10px;
+  background-image: linear-gradient(#84ffc9,#aab2ff,#eca0ff);
+  height:50px;
+  border-radius: 10px;
+}
+.gameButton:nth-child(2)
+{
+  
+  position: absolute;
+  bottom:0;
+  margin:10px;
+  background-image: linear-gradient(#84ffc9,#aab2ff,#eca0ff);
+  height:50px;
+  border-radius: 10px;
+}
+#recyclable:hover
+{
+  background-image: linear-gradient( to right,green,#44ec4c, cyan);
+  transform: scale(1.1);
+}
+#disposal:hover
+{
+  background-image: linear-gradient( to right,red,orange,pink);
+  transform: scale(1.1);
+}
+.game h3
+{
+  margin-left:5px;
+  color: purple;
+  font-family:sans-serif;
+}
+#pkm
+{
+  position: absolute;
+  right:10px;
+}
+.waste{
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  top:30%;
+  right:300px;
+}
+
+
+
+.footer
+{ 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('img/greenbg.jpeg');
+}
+
+.footer h2
+{
+  margin-left: 50px;
+}
+.video{
+  text-align: center;
+ 
+}
